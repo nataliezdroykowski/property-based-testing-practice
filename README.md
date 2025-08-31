@@ -21,9 +21,9 @@ are inverses of each other; i.e., that deserialize(serialize(x)) = x for all x.
 
 Problem B3
 In this problem, first define a native data type for a color, which should be able to represent colors in the following three ways:
-- Named colors (Red, Green, Blue, etc: how many is up to you, but a finite number)
-- RGB colors (three numbers, 0 to 255, that represent the amount of Red, Green, or Blue in the color)
-- CMYK (four numbers, 0 to 255, that represent how much Cyan, Magenta, Yellow, and Black, in the color)
+Named colors (Red, Green, Blue, etc: how many is up to you, but a finite number)
+RGB colors (three numbers, 0 to 255, that represent the amount of Red, Green, or Blue in the color)
+CMYK (four numbers, 0 to 255, that represent how much Cyan, Magenta, Yellow, and Black, in the color)
 Now, write code that turns your color into a "packed" representation as an array (or list) of numbers. You are welcome to choose any representation as you like,
 but we’d suggest using the first number as a "tag" that indicates which possibility you are in.
 Next, write code that takes a "packed" representation as an array (or list) of numbers, and convert it back into the native color data structure.
